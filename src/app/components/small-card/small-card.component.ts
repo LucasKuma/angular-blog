@@ -13,5 +13,7 @@ export class SmallCardComponent {
   photoCover:string = "";
   @Input()
   cardTitle:string = "";
+  @Input()
+  Id:string ="0"
 
 }
